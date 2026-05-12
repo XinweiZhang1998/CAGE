@@ -50,7 +50,7 @@ CUDA_VISIBLE_DEVICES=0 python attacker_TextVQA_caa.py \
   --alpha 0.5 \
   --steps 100 \
   --sel_layer -2 \
-  --lambda_div 0.005
+  --lambda_attr 0.005
 
 ```
 
