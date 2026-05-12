@@ -61,7 +61,7 @@ CUDA_VISIBLE_DEVICES=0 python attacker_TextVQA_caa.py \
 * `--alpha`: Step size for the attack optimization.
 * `--steps`: Number of optimization iterations.
 * `--sel_layer`: The layer index used for feature selection (e.g., -2).
-* `--lambda_div`: Weight for the diversity loss term.
+* `--lambda_attr`: weight for RDA-KL alignment
 
 The generated adversarial examples will be saved in: `./attack/CAA_EFD_RDAKL_attn_seed42_TextVQA_[TIMESTAMP]/`
 
