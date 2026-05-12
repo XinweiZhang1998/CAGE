@@ -1,5 +1,5 @@
 
-# CAGE: Compression-Aligned Attack for Large Vision-Language Models under Vision Token Compression
+# [ICML26]On the Adversarial Robustness of Large Vision-Language Models under Visual Token Compression
 
 This repository contains the official implementation of **CAGE** on the TextVQA dataset. It targets LLaVA models equipped with VisionZIP inference acceleration.
 
